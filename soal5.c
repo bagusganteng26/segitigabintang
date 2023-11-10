@@ -4,8 +4,6 @@ int main() {
     int a, b, c, d;
     printf("Masukkan: ");
     scanf("%d", &a);
-
-    // Loop untuk setiap baris
     for (b = 1; b <= a; b++) {
         for (c = 1; c <= a - b; c++) {
             printf(" ");
